@@ -1,0 +1,15 @@
+{
+  "name": "research_week_gql",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungai/research_week_gql.git"
+  },
+  "author": "jungai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungai/research_week_gql/issues"
+  },
+  "homepage": "https://github.com/jungai/research_week_gql#readme"
+}
