@@ -1,0 +1,14 @@
+datasource db {
+  provider = "mysql"
+  url      = "mysql://host:host@localhost:3306/jungai_test"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model monton_jean {
+  monton_id   Int    @id @default(autoincrement())
+  monton_code String @db.VarChar(5)
+  monton_name String @db.VarChar(150)
+}
