@@ -60,6 +60,7 @@ importers:
       '@typescript-eslint/eslint-plugin': ^4.26.0
       '@typescript-eslint/parser': ^4.26.0
       core_app: 0.1.0
+      dotenv: ^10.0.0
       eslint: ^7.28.0
       eslint-config-prettier: ^8.3.0
       eslint-plugin-prettier: ^3.4.0
@@ -68,6 +69,7 @@ importers:
       typescript: ^4.3.2
     dependencies:
       core_app: link:../core_app
+      dotenv: 10.0.0
     devDependencies:
       '@babel/core': 7.15.5
       '@babel/preset-env': 7.15.4_@babel+core@7.15.5
@@ -1867,6 +1869,11 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
+
+  /dotenv/10.0.0:
+    resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
+    engines: {node: '>=10'}
+    dev: false
 
   /ee-first/1.1.1:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}

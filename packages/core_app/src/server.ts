@@ -29,7 +29,7 @@ export function setupGql(e: Express) {
         graphqlHTTP({
             schema: schema,
             rootValue: root,
-            graphiql: true, // same as active shell
+            graphiql: process.env.ENV === 'development', // same as active shell
         }),
     );
 }
