@@ -1,5 +1,5 @@
 import { GraphQLObjectType, GraphQLList, GraphQLSchema } from 'graphql';
-import { montonJeanType, montonJeanArgs, montonJeanResolver } from './monton_jean';
+import { montonJeanType, montonJeanArgs, montonJeanResolver } from './queries/monton_jean';
 
 const rootQueryType = new GraphQLObjectType({
     name: 'Query',

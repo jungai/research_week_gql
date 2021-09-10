@@ -1,8 +1,9 @@
 import { GraphQLObjectType, GraphQLString, GraphQLNonNull, GraphQLInt, GraphQLFieldResolver } from 'graphql';
-import { prisma } from '../../utils';
+import { prisma } from '../../../utils';
 
 export const montonJeanType = new GraphQLObjectType({
     name: 'MontonJean',
+    description: 'มณฑลจีนไทยในอนาคต',
     fields: () => ({
         monton_id: { type: GraphQLNonNull(GraphQLString) },
         monton_code: { type: GraphQLNonNull(GraphQLString) },
